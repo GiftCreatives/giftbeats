@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gift Beats | Beats, Mixing & Mastering</title>
+<meta name="description" content="Gift Beats — Professional beats, mixing and mastering for artists in Kenya.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Gift Beats | Beats, Mixing & Mastering">
+<meta property="og:description" content="Gift Beats — Professional beats, mixing and mastering for artists in Kenya.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/hero.jpg">
+<meta property="og:locale" content="en_KE">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================================
+     FLOATING PARTICLES LAYER (decorative)
+     ================================ -->
+<div class="particles" id="particles" aria-hidden="true"></div>
+
+<!-- ================================
+     NAVIGATION
+     ================================ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo">GIFT <span>BEATS</span></a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#top" class="nav__link active">Home</a>
+      <a href="#services" class="nav__link">Services</a>
+      <a href="#pricing" class="nav__link">Pricing</a>
+      <a href="#showcase" class="nav__link">Showcase</a>
+      <a href="#contact" class="nav__link">Contact</a>
+    </nav>
+
+    <div class="nav__actions">
+      <a href="https://wa.me/254791563093?text=Hello%20Gift%20Beats%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services."
+         class="btn btn--red btn--sm nav__cta" target="_blank" rel="noopener">WhatsApp</a>
+      <button class="nav__burger" id="navBurger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile menu overlay -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#top" class="mobile-menu__link">Home</a>
+  <a href="#services" class="mobile-menu__link">Services</a>
+  <a href="#pricing" class="mobile-menu__link">Pricing</a>
+  <a href="#showcase" class="mobile-menu__link">Showcase</a>
+  <a href="#contact" class="mobile-menu__link">Contact</a>
+  <a href="https://wa.me/254791563093?text=Hello%20Gift%20Beats%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services."
+     class="btn btn--red mobile-menu__cta" target="_blank" rel="noopener">WhatsApp Gift Beats</a>
+</div>
+
+<!-- ================================
+     HERO SECTION
+     Replace: images/hero.jpg
+     Studio scene: MIDI keyboard, monitors, DAW, purple/magenta light
+     ================================ -->
+<section class="hero" id="top">
+  <div class="hero__media">
+    <!-- IMAGE PLACEHOLDER: Replace with images/hero.jpg -->
+    <img src="images/hero.jpg" alt="Gift Beats production studio with MIDI keyboard and monitors under purple light" class="hero__img" id="heroImg">
+    <div class="hero__gradient"></div>
+    <div class="hero__glow"></div>
+  </div>
+
+  <div class="hero__content">
+    <p class="hero__kicker reveal">A GIFT BEATS ORIGINAL</p>
+    <h1 class="hero__title">
+      <span class="reveal" style="--d:1">GIFT</span>
+      <span class="reveal" style="--d:2"><em>BEATS</em></span>
+    </h1>
+    <p class="hero__tagline reveal" style="--d:3">Your sound. Our passion.</p>
+    <p class="hero__sub reveal" style="--d:4">Professional beats, mixing and mastering for artists who don't wait for permission to sound finished.</p>
+
+    <div class="hero__actions reveal" style="--d:5">
+      <a href="#services" class="btn btn--ghost">Explore Services</a>
+      <a href="https://wa.me/254791563093" target="_blank" rel="noopener" class="btn btn--red">WhatsApp Us</a>
+    </div>
+  </div>
+
+
+</section>
+
+<!-- ================================
+     SERVICES SECTION
+     ================================ -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <h2 class="section-title">What We Do</h2>
+      <p class="section-sub">Sound built for artists.</p>
+    </div>
+
+    <div class="services__grid">
+
+      <!-- BEATS -->
+      <article class="service-card reveal-up">
+        <div class="service-card__media">
+          <!-- IMAGE PLACEHOLDER: Replace with images/service-beats.jpg -->
+          <img src="images/service-beats.jpg" alt="Beat production session" loading="lazy">
+        </div>
+        <div class="service-card__body">
+          <h3>Beats</h3>
+          <p>Original instrumentals designed for your sound.</p>
+          <p class="service-card__price">From <strong>KSh 2,000</strong></p>
+          <a href="#pricing" class="btn btn--outline">Explore Beats</a>
+        </div>
+      </article>
+
+      <!-- MIXING -->
+      <article class="service-card reveal-up">
+        <div class="service-card__media">
+          <!-- IMAGE PLACEHOLDER: Replace with images/service-mixing.jpg -->
+          <img src="images/service-mixing.jpg" alt="Mixing session on a DAW" loading="lazy">
+        </div>
+        <div class="service-card__body">
+          <h3>Mixing</h3>
+          <p>Clean, balanced and powerful mixes that make your music hit harder.</p>
+          <p class="service-card__price"><strong>KSh 2,000</strong></p>
+          <a href="https://wa.me/254791563093?text=Hello%20Gift%20Beats%2C%20I%20would%20like%20to%20book%20Mixing%20for%20KSh%202%2C000."
+             target="_blank" rel="noopener" class="btn btn--outline">Book Mixing</a>
+        </div>
+      </article>
+
+      <!-- MASTERING -->
+      <article class="service-card reveal-up">
+        <div class="service-card__media">
+          <!-- IMAGE PLACEHOLDER: Replace with images/service-mastering.jpg -->
+          <img src="images/service-mastering.jpg" alt="Mastering engineer at work" loading="lazy">
+        </div>
+        <div class="service-card__body">
+          <h3>Mastering</h3>
+          <p>The final polish that makes your track release-ready.</p>
+          <p class="service-card__price"><strong>KSh 2,000</strong></p>
+          <a href="https://wa.me/254791563093?text=Hello%20Gift%20Beats%2C%20I%20would%20like%20to%20book%20Mastering%20for%20KSh%202%2C000."
+             target="_blank" rel="noopener" class="btn btn--outline">Book Mastering</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================================
+     PRICING SECTION
+     ================================ -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <h2 class="section-title">Choose Your Sound</h2>
+      <p class="section-sub">Professional production. Simple pricing.</p>
+    </div>
+
+    <div class="pricing__grid">
+
+      <!-- BEAT LEASING -->
+      <div class="price-card reveal-up">
+        <h3 class="price-card__name">Beat Leasing</h3>
+        <p class="price-card__amount">KSh 2,000</p>
+        <p class="price-card__desc">Get the beat and start creating.</p>
+        <ul class="price-card__features">
+          <li>Quality production</li>
+          <li>Artist leasing license</li>
+          <li>Ready for recording</li>
+        </ul>
+        <a href="https://wa.me/254791563093?text=Hello%20Gift%20Beats%2C%20I%20would%20like%20to%20lease%20a%20beat%20for%20KSh%202%2C000."
+           target="_blank" rel="noopener" class="btn btn--outline price-card__btn">Lease a Beat</a>
+      </div>
+
+      <!-- EXCLUSIVE BEAT -->
+      <div class="price-card price-card--featured reveal-up">
+        <span class="price-card__badge">Most Popular</span>
+        <h3 class="price-card__name">Exclusive Beat</h3>
+        <p class="price-card__amount">KSh 6,000</p>
+        <p class="price-card__desc">Full ownership. One artist, one record.</p>
+        <ul class="price-card__features">
+          <li>Exclusive ownership</li>
+          <li>Beat removed from public availability</li>
+          <li>Commercial release ready</li>
+          <li>Artist-focused production</li>
+        </ul>
+        <a href="https://wa.me/254791563093?text=Hello%20Gift%20Beats%2C%20I%20am%20interested%20in%20an%20Exclusive%20Beat%20for%20KSh%206%2C000."
+           target="_blank" rel="noopener" class="btn btn--red price-card__btn">Get Exclusive</a>
+      </div>
+
+      <!-- MIXING -->
+      <div class="price-card reveal-up">
+        <h3 class="price-card__name">Mixing</h3>
+        <p class="price-card__amount">KSh 2,000</p>
+        <p class="price-card__desc">Vocals and instruments, brought into balance.</p>
+        <ul class="price-card__features">
+          <li>Vocal balancing</li>
+          <li>EQ</li>
+          <li>Compression</li>
+          <li>Effects</li>
+          <li>Stereo mix</li>
+        </ul>
+        <a href="https://wa.me/254791563093?text=Hello%20Gift%20Beats%2C%20I%20would%20like%20to%20book%20Mixing%20for%20KSh%202%2C000."
+           target="_blank" rel="noopener" class="btn btn--outline price-card__btn">Book Mixing</a>
+      </div>
+
+      <!-- MASTERING -->
+      <div class="price-card reveal-up">
+        <h3 class="price-card__name">Mastering</h3>
+        <p class="price-card__amount">KSh 2,000</p>
+        <p class="price-card__desc">The last step before your record meets the world.</p>
+        <ul class="price-card__features">
+          <li>Loudness optimization</li>
+          <li>Tonal balance</li>
+          <li>Stereo enhancement</li>
+          <li>Final mastering</li>
+          <li>Release-ready sound</li>
+        </ul>
+        <a href="https://wa.me/254791563093?text=Hello%20Gift%20Beats%2C%20I%20would%20like%20to%20book%20Mastering%20for%20KSh%202%2C000."
+           target="_blank" rel="noopener" class="btn btn--outline price-card__btn">Book Mastering</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================================
+     BEAT SHOWCASE
+     ================================ -->
+<section class="showcase" id="showcase">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <h2 class="section-title">Enter The Sound</h2>
+      <p class="section-sub">A few beats to press play on.</p>
+    </div>
+
+    <div class="showcase__grid">
+
+      <!-- BEAT 01 -->
+      <div class="beat-card reveal-up">
+        <div class="beat-card__art">
+          <!-- IMAGE PLACEHOLDER: Replace with images/beat-01.jpg -->
+          <img src="images/beat-01.jpg" alt="Afro Fusion beat cover art" loading="lazy">
+          <button class="beat-card__play" data-track="audio/beat-01.mp3" data-title="Afro Fusion" aria-label="Play Afro Fusion">
+            <svg viewBox="0 0 24 24" class="icon-play"><path d="M8 5v14l11-7z"/></svg>
+            <svg viewBox="0 0 24 24" class="icon-pause"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+          </button>
+        </div>
+        <p class="beat-card__num">Beat 01</p>
+        <h3 class="beat-card__name">Afro Fusion</h3>
+        <!-- AUDIO PLACEHOLDER: audio/beat-01.mp3 -->
+        <audio class="beat-audio" preload="none" src="audio/beat-01.mp3"></audio>
+      </div>
+
+      <!-- BEAT 02 -->
+      <div class="beat-card reveal-up">
+        <div class="beat-card__art">
+          <!-- IMAGE PLACEHOLDER: Replace with images/beat-02.jpg -->
+          <img src="images/beat-02.jpg" alt="Gusii Vibe beat cover art" loading="lazy">
+          <button class="beat-card__play" data-track="audio/beat-02.mp3" data-title="Gusii Vibe" aria-label="Play Gusii Vibe">
+            <svg viewBox="0 0 24 24" class="icon-play"><path d="M8 5v14l11-7z"/></svg>
+            <svg viewBox="0 0 24 24" class="icon-pause"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+          </button>
+        </div>
+        <p class="beat-card__num">Beat 02</p>
+        <h3 class="beat-card__name">Gusii Vibe</h3>
+        <!-- AUDIO PLACEHOLDER: audio/beat-02.mp3 -->
+        <audio class="beat-audio" preload="none" src="audio/beat-02.mp3"></audio>
+      </div>
+
+      <!-- BEAT 03 -->
+      <div class="beat-card reveal-up">
+        <div class="beat-card__art">
+          <!-- IMAGE PLACEHOLDER: Replace with images/beat-03.jpg -->
+          <img src="images/beat-03.jpg" alt="Trap Soul beat cover art" loading="lazy">
+          <button class="beat-card__play" data-track="audio/beat-03.mp3" data-title="Trap Soul" aria-label="Play Trap Soul">
+            <svg viewBox="0 0 24 24" class="icon-play"><path d="M8 5v14l11-7z"/></svg>
+            <svg viewBox="0 0 24 24" class="icon-pause"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+          </button>
+        </div>
+        <p class="beat-card__num">Beat 03</p>
+        <h3 class="beat-card__name">Trap Soul</h3>
+        <!-- AUDIO PLACEHOLDER: audio/beat-03.mp3 -->
+        <audio class="beat-audio" preload="none" src="audio/beat-03.mp3"></audio>
+      </div>
+
+      <!-- BEAT 04 -->
+      <div class="beat-card reveal-up">
+        <div class="beat-card__art">
+          <!-- IMAGE PLACEHOLDER: Replace with images/beat-04.jpg -->
+          <img src="images/beat-04.jpg" alt="Afrobeat beat cover art" loading="lazy">
+          <button class="beat-card__play" data-track="audio/beat-04.mp3" data-title="Afrobeat" aria-label="Play Afrobeat">
+            <svg viewBox="0 0 24 24" class="icon-play"><path d="M8 5v14l11-7z"/></svg>
+            <svg viewBox="0 0 24 24" class="icon-pause"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+          </button>
+        </div>
+        <p class="beat-card__num">Beat 04</p>
+        <h3 class="beat-card__name">Afrobeat</h3>
+        <!-- AUDIO PLACEHOLDER: audio/beat-04.mp3 -->
+        <audio class="beat-audio" preload="none" src="audio/beat-04.mp3"></audio>
+      </div>
+
+    </div>
+
+    <p class="showcase__note" id="nowPlaying" aria-live="polite"></p>
+  </div>
+</section>
+
+<!-- ================================
+     ARTIST / STUDIO SECTION
+     Replace: images/studio.jpg
+     ================================ -->
+<section class="studio">
+  <div class="studio__media reveal-up">
+    <!-- IMAGE PLACEHOLDER: Replace with images/studio.jpg -->
+    <img src="images/studio.jpg" alt="Gift Beats studio workspace" loading="lazy">
+  </div>
+  <div class="studio__content reveal-up">
+    <h2 class="section-title">Built For The Sound</h2>
+    <p class="studio__text">From the first idea to the final master, Gift Beats helps artists turn their sound into a finished record.</p>
+    <div class="studio__stats">
+      <div class="studio__stat"><span>Beats</span></div>
+      <div class="studio__stat"><span>Mixing</span></div>
+      <div class="studio__stat"><span>Mastering</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================
+     HOW IT WORKS
+     ================================ -->
+<section class="steps">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <h2 class="section-title">From Idea To Release</h2>
+    </div>
+
+    <ol class="steps__list">
+      <li class="steps__item reveal-up">
+        <span class="steps__num">01</span>
+        <h3>Choose</h3>
+        <p>Choose your beat or production service.</p>
+      </li>
+      <li class="steps__item reveal-up">
+        <span class="steps__num">02</span>
+        <h3>Connect</h3>
+        <p>Contact Gift Beats through WhatsApp.</p>
+      </li>
+      <li class="steps__item reveal-up">
+        <span class="steps__num">03</span>
+        <h3>Create</h3>
+        <p>Create, record, mix and release your music.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================================
+     WHY GIFT BEATS
+     ================================ -->
+<section class="why">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <h2 class="section-title">Why Gift Beats?</h2>
+    </div>
+
+    <div class="why__grid">
+      <div class="why__card reveal-up">
+        <h3>Original Sound</h3>
+        <p>Unique production built for artists.</p>
+      </div>
+      <div class="why__card reveal-up">
+        <h3>Quality</h3>
+        <p>Attention to detail from production to mastering.</p>
+      </div>
+      <div class="why__card reveal-up">
+        <h3>Affordable</h3>
+        <p>Professional services at accessible Kenyan prices.</p>
+      </div>
+      <div class="why__card reveal-up">
+        <h3>Artist First</h3>
+        <p>Your vision drives the process.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================
+     FINAL CTA
+     Replace: images/cta.jpg
+     ================================ -->
+<section class="final-cta" id="contact">
+  <div class="final-cta__media">
+    <!-- IMAGE PLACEHOLDER: Replace with images/cta.jpg -->
+    <img src="images/cta.jpg" alt="Gift Beats studio at night" loading="lazy">
+    <div class="final-cta__gradient"></div>
+  </div>
+
+  <div class="final-cta__content reveal-up">
+    <h2 class="final-cta__title">Ready To Make Your Sound?</h2>
+    <p class="final-cta__lines">Beats. Mixing. Mastering.</p>
+    <p class="final-cta__sub">Your next record starts here.</p>
+    <a href="https://wa.me/254791563093" target="_blank" rel="noopener" class="btn btn--red btn--lg">WhatsApp Gift Beats</a>
+    <p class="final-cta__contact">0791563093 &middot; Kenya</p>
+  </div>
+</section>
+
+<!-- ================================
+     FOOTER
+     ================================ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <p class="footer__logo">GIFT <span>BEATS</span></p>
+      <p class="footer__tag">Your sound. Our passion.</p>
+    </div>
+
+    <div class="footer__col">
+      <h4>Services</h4>
+      <ul>
+        <li>Beats</li>
+        <li>Mixing</li>
+        <li>Mastering</li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>Contact</h4>
+      <ul>
+        <li>0791563093</li>
+        <li><a href="https://wa.me/254791563093" target="_blank" rel="noopener">WhatsApp: 0791563093</a></li>
+        <li>Kenya</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <p>Music never sleeps.</p>
+    <p>&copy; 2026 Gift Beats. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
